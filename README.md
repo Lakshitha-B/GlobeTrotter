@@ -1,73 +1,116 @@
-# Welcome to your Lovable project
+📌 Project Overview
 
-## Project info
+This is a Travel Web Application designed and developed to help users explore destinations, plan trips, and view travel-related information through an interactive and user-friendly interface.
+The project focuses on clean UI, responsive design, and modern frontend development practices.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🛠️ How can I edit this project?
 
-## How can I edit this code?
+There are multiple ways to edit and maintain this project based on your development workflow.
 
-There are several ways of editing your application.
+💻 Use Your Preferred IDE (Recommended)
 
-**Use Lovable**
+You can work locally using any IDE such as VS Code, WebStorm, or others.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Prerequisites
 
-Changes made via Lovable will be committed automatically to this repo.
+Node.js
 
-**Use your preferred IDE**
+npm
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+👉 Recommended installation using nvm:
+https://github.com/nvm-sh/nvm#installing-and-updating
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+Steps to run locally
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The application will start with hot reload and provide an instant development preview.
 
-**Use GitHub Codespaces**
+📝 Edit Files Directly on GitHub
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+You can also make quick changes directly on GitHub:
 
-## What technologies are used for this project?
+Navigate to the required file(s)
 
-This project is built with:
+Click the ✏️ Edit button
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Make changes and commit them
 
-## How can I deploy this project?
+☁️ Use GitHub Codespaces
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+For cloud-based development:
 
-## Can I connect a custom domain to my Lovable project?
+Open the repository on GitHub
 
-Yes, you can!
+Click Code → Codespaces
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Select New codespace
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Edit, commit, and push changes directly from the browser
+
+✨ Optional: Use Lovable Platform
+
+This project can optionally be connected to Lovable for rapid UI iteration and previews.
+
+Open the project on Lovable
+
+Make UI or content changes using prompts
+
+Changes are synced with the GitHub repository
+
+⚙️ Technologies Used
+
+This project is built using modern web technologies:
+
+⚡ Vite
+
+🟦 TypeScript
+
+⚛️ React
+
+🎨 shadcn/ui
+
+🌈 Tailwind CSS
+
+🚀 Deployment
+
+The project can be deployed using multiple platforms:
+
+Option 1: Deploy using Lovable
+
+Open the project in Lovable
+
+Click Share → Publish
+
+Option 2: Deploy using other platforms
+
+You can also deploy this project using:
+
+Vercel
+
+Netlify
+
+GitHub Pages
+
+🌐 Custom Domain Support
+
+You can connect a custom domain to the deployed application.
+
+If deployed via Lovable:
+Go to Project → Settings → Domains → Connect Domain
+
+If deployed via other platforms:
+Configure the domain in Vercel / Netlify dashboard
+
+📖 Reference:
+https://docs.lovable.dev/features/custom-domain#custom-domain
